@@ -93,7 +93,7 @@
     letter-spacing: 1.6px;
 }
 .description{
-    width: 97.1%;
+
     letter-spacing: 0.64px;
     opacity: 0.66;
     color: #282828;
@@ -118,13 +118,18 @@
     border-color: transparent transparent #ff6d6d transparent;
     float: right;
 }
+#section_3{
+    background-color: #f6f5f3;
+    height: 675px;
+    padding: 0 5%;
+}
 .top{
     position: relative;
 }
 .pen{
     position:absolute;
     top:0;
-    left:5%
+
 }
 .earphones{
     position:absolute;
@@ -135,5 +140,102 @@
 .feature-header{
     position: relative;
     text-align: center;
-    width: 100%
+    width: 100%;
+    top: 120px;
+}
+#section_3 .middle .features, #section_5 .testimonials{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+#section_3 .top{
+    margin-bottom: 14.5%;
+}
+#section_3 .feature_content{
+    width: 90%;
+    margin: 0 auto;
+}
+#section_3 .coffee{
+    float: right;
+    margin-top: 7%;
+}
+.feature_title{
+    color: #282828;
+    font-family: Exo;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 49.97px;
+}
+.desing-2 {
+    float: left;
+    background-color: #ff6d6d;
+    width: 48%;
+    height: 550px;
+    position:relative;
+}
+
+.triangle-2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 585px 550px 0;
+    border-color: transparent #fff transparent transparent;
+    float: right;
+}
+.triangle-2 img{
+    position: absolute;
+    top: 18%;
+}
+.platform-2{
+    float: right;
+    width: 40%;
+    padding: 125px 60px;
+}
+
+#section_5{
+    height: 430px;
+    background-image: url("images/group-4.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    clear:both;
+    padding: 8% 0;
+    position: relative;
+
+}
+#section_5 .testimonial-content{
+    width: 65%;
+    margin: 0 auto;
+
+}
+#section_5 .name{
+    color: #ffffff;
+    font-family: Exo;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 49.97px;
+}
+#section_5 .undertitle{
+    color: #ff6d6d;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 49.97px;
+}
+#section_5 .descp{
+    opacity: 0.66;
+    color: #ffffff;
+    font-family: "Exo - Regular";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 26px;
+}
+.partners{
+    position: absolute;
+    bottom: 15%;
+    width:100%
+}
+.partners img{
+    margin-left:10%;
 }
