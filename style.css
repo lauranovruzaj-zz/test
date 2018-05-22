@@ -2,6 +2,18 @@
 .clear{clear:both;}
 @font-face {font-family:"Exo Thin";src:url("fonts/Exo_Thin/Exo-Thin.eot?") format("eot"),url("fonts/Exo_Thin/Exo-Thin.woff") format("woff"),url("fonts/Exo_Thin/Exo-Thin.ttf") format("truetype"),url("fonts/Exo_Thin/Exo-Thin.svg#Exo-Thin") format("svg");font-weight:normal;font-style:normal;}
 .center{ margin: 0 auto;}
+::placeholder {
+    color: #fffffff0; /* Firefox */
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fffffff0;
+}
+
+:-ms-input-placeholder { /* Microsoft Edge */
+    color: #fffffff0;
+}
 
 #section_1 #bgimage{
 
@@ -238,4 +250,109 @@
 }
 .partners img{
     margin-left:10%;
+}
+#section_6{
+    height: 660px;
+    background-color: #f6f5f3;
+    position:relative;
+    padding-top: 7%;
+}
+#section_6 .top,#section_7 .top{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+#section_6 img{
+    position: absolute;
+    bottom: 0;
+    left: 23%;
+}
+#section_7{
+    height: 385px;
+    background-color: #323969;
+    text-align: center;
+    padding-top: 6%;
+}
+#section_7 .top .title, #section_7 .top span{
+    color: #ffffff;
+    margin-bottom: 0;
+}
+#section_7 .submit{
+    width: 19%;
+    height: 49px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    background-color: #ff6d6d;
+    color: #f6f5f3;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#section_7 .input{
+    width: 19%;
+    height: 49px;
+    border-radius: 3px;
+    border: 1px solid #f6f5f35c;
+    color: #fffffff0;
+    font-family: Exo;
+    font-size: 16px;
+    margin-right: 25px;
+    text-transform: uppercase;
+    padding-left: 28px;
+    background-color: #f6f5f314;
+    margin-bottom: 18px;
+}
+#section_7 span{
+    color: #f6f5f3;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 75px;
+    opacity: 0.6;
+}
+.trial{
+    margin-bottom: 35px;
+    margin-left: 70%;
+    color: #f6f5f3;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+}
+footer{
+    height:332px;
+}
+.desing-3 {
+    float: right;
+    background-color: #fff;
+
+}
+.data{
+    float:left;
+}
+
+.triangle-3{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0px 332px 332px 0;
+    border-color: transparent #ff6d6d transparent transparent;
+    float: left;
+}
+.submit-f{
+    width: 52px;
+    height: 49px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    background-color: #ff6d6d;
+}
+.input-f{
+    width: 263px;
+    height: 49px;
+    border-radius: 3px;
+    border: 1px solid #4e4e5e;
+    background-color: #8d8d8d;
+    opacity: 0.4;
 }
