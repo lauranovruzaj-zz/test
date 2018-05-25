@@ -34,8 +34,7 @@
     margin: 0 auto;
 }
 #section_1 #bgimage p{
-    width: 708px;
-    height: 138px;
+    width: 55%;
     color: #282828;
     font-family: "Exo Thin";
     font-size: 60px;
@@ -74,13 +73,13 @@
     line-height: 75px;
 }
 #section_2{
-    height: 726px;
+    float: left;
 }
 
-#platform{
+#platform {
     float: left;
-    width: 52%;
-    padding: 120px 60px;
+    width: calc(52% - 120px);
+    padding: 100px 60px;
 }
 .subtitle{
 
@@ -117,27 +116,29 @@
 }
 
 #desing{
-    float:right;
+    float: right;
     background-color: #ECECEC;
-    width: 39%;
-    height: 726px;
+    width: 38%;
 }
 
 .triangle{
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 200px 0 526px 526px;
+    border-width: 200px 0 526px 513px;
     border-color: transparent transparent #ff6d6d transparent;
-    float: right;
+
 }
 #section_3{
     background-color: #f6f5f3;
-    height: 675px;
     padding: 0 5%;
+    float: left;
+
 }
 .top{
     position: relative;
+    float: left;
+    width: 100%;
 }
 .pen{
     position:absolute;
@@ -156,6 +157,10 @@
     width: 100%;
     top: 120px;
 }
+#section_3 .middle {
+
+    float: left;
+}
 #section_3 .middle .features, #section_5 .testimonials{
     float: left;
     width: 33%;
@@ -170,7 +175,9 @@
 }
 #section_3 .coffee{
     float: right;
-    margin-top: 7%;
+    margin-top: 5%;
+    margin-right: -5%;
+}
 }
 .feature_title, footer .data_title{
     color: #282828;
@@ -342,16 +349,7 @@ footer{
     border-color: transparent #ff6d6d transparent transparent;
     float: left;
 }
-.submit-f{
-    width: 52px;
-    height: 50px;
-    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
-    border-radius: 3px;
-    border: 1px solid #ff6d6d;
-    background-color: #ff6d6d;
-    position: absolute;
-    right: -24%;
-}
+
 .input-f {
     width: 182px;
     height: 49px;
@@ -417,10 +415,9 @@ footer .data{
     position:relative;
 
 }
-.social-network{
-    margin-top: 19px;
-    margin-left: 15%;
-
+.social-network {
+    margin: 19px auto 0 auto;
+    text-align: center;
 }
 .social-network img{
     margin-right: 15%;
@@ -444,4 +441,19 @@ input[type="email"].input-f:-ms-input-placeholder {
 input[type="email"].input-f:-moz-placeholder  {
      color:rgba(141, 141, 141, 0.4);
  }
+.newsletter-block{
+    min-width: 265px;
+}
+.newsletter-block .submit-f{
+    width: 52px;
+    height: 50px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.2);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    background-color: #ff6d6d;
+    float: right;
+    display: inline-block;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
 
