@@ -79,7 +79,7 @@
 #platform {
     float: left;
     width: calc(52% - 120px);
-    padding: 100px 60px;
+    padding: 86px 60px;
 }
 .subtitle{
 
@@ -127,7 +127,7 @@
     border-style: solid;
     border-width: 200px 0 526px 513px;
     border-color: transparent transparent #ff6d6d transparent;
-
+    float:right;
 }
 #section_3{
     background-color: #f6f5f3;
@@ -194,8 +194,6 @@
     float: left;
     background-color: #ff6d6d;
     width: 45%;
-    /*height: 550px;*/
-    position:relative;
 }
 
 .triangle-2{
@@ -207,8 +205,7 @@
     float: right;
 }
 .triangle-2 img{
-    position: absolute;
-    top: 18%;
+    margin-top: 95px;
 }
 .platform-2{
     float: right;
@@ -339,12 +336,13 @@
     padding: 0 20px;
 }
 footer{
-    height:332px;
-    padding-left: 11%;
+    float: left;
+    width: 100%;
 }
 .desing-3 {
     float: right;
     background-color: #fff;
+    width: 20%;
 
 }
 .data{
@@ -355,7 +353,7 @@ footer{
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 0px 250px 332px 0;
+    border-width: 0px 270px 332px 0;
     border-color: transparent #ff6d6d transparent transparent;
     float: left;
 }
@@ -386,7 +384,8 @@ footer .col-md-2{
 }
 footer .data{
     margin-top: 8%;
-    width: 73%
+    width: calc(80% - 180px);
+    padding: 0 90px;
 }
 .support{
     width: 20%;
@@ -407,7 +406,7 @@ footer .data{
     border-width: 25px 0 25px 50px;
     border-color: transparent transparent transparent #ff8a8a;
     top: -2px;
-    left: 24%;
+    left: 16%;
     z-index: -1;
 }
 .ex{
