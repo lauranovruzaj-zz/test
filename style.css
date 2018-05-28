@@ -135,7 +135,7 @@
     float: left;
 
 }
-.top{
+#section_3 .top{
     position: relative;
     float: left;
     width: 100%;
@@ -186,11 +186,15 @@
     font-weight: 500;
     line-height: 49.97px;
 }
+
+#section_4{
+    float: left;
+}
 .desing-2 {
     float: left;
     background-color: #ff6d6d;
-    width: 48%;
-    height: 550px;
+    width: 45%;
+    /*height: 550px;*/
     position:relative;
 }
 
@@ -208,25 +212,28 @@
 }
 .platform-2{
     float: right;
-    width: 40%;
-    padding: 125px 60px;
+    width: calc(55% - 120px);
+    padding: 110px 60px;
 }
 
 #section_5{
-    height: 430px;
     background-image: url("images/group-4.png");
     background-repeat: no-repeat;
-    width: 100%;
     background-size: cover;
     clear:both;
     padding: 8% 0;
-    position: relative;
+    float: left;
+
 
 }
 #section_5 .testimonial-content{
     width: 65%;
     margin: 0 auto;
 
+}
+#section_5 .top{
+    float: left;
+    margin-bottom: 75px;
 }
 #section_5 .name{
     color: #ffffff;
@@ -251,19 +258,15 @@
     font-style: italic;
     line-height: 26px;
 }
-.partners{
-    position: absolute;
-    bottom: 15%;
-    width:100%
-}
+
 .partners img{
     margin-left:10%;
 }
 #section_6{
-    height: 660px;
+
     background-color: #f6f5f3;
-    position:relative;
     padding-top: 7%;
+    float:left;
 }
 #section_6 .top,#section_7 .top{
     width: 50%;
@@ -271,15 +274,19 @@
     text-align: center;
 }
 #section_6 img{
-    position: absolute;
-    bottom: 0;
-    left: 21%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 60px;
 }
 #section_7{
-    height: 385px;
+    /*height: 385px;*/
     background-color: #323969;
     text-align: center;
     padding-top: 6%;
+    width: 100%;
+    float:left;
 }
 #section_7 .top .title, #section_7 .top span{
     color: #ffffff;
@@ -327,6 +334,9 @@
     font-family: Exo;
     font-size: 16px;
     font-weight: 400;
+}
+#section_7 form{
+    padding: 0 20px;
 }
 footer{
     height:332px;

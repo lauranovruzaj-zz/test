@@ -57,6 +57,13 @@
     #section_3{
         padding:5%;
     }
+    #section_5 .testimonials{
+        width:100%;
+        margin-bottom: 30px;
+    }
+    #section_7 .submit,#section_7 .input{
+        width:50%;
+    }
 }
 
 
@@ -72,4 +79,13 @@
 
         float:right;
     }
+    .desing-2{
+        width:100%;
+    }
+    .platform-2{
+        width: calc(100% - 120px);
+
+    }
+
+
 }
