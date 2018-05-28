@@ -22,9 +22,13 @@
         padding: 60px 60px;
     }
 }
-@media screen and  (min-width: 500px) {
+@media screen and  (max-width: 600px) {
+    #section_7 span{
+        font-size: 12px;
+    }
 
 }
+
 
 @media screen and  (min-width:451px) and (max-width: 660px) {
     #section_1 #bgimage button{
@@ -42,6 +46,60 @@
     .triangle-2 img{
 
         display: none;
+    }
+}
+
+
+@media screen and  (max-width: 1000px) {
+    #platform{
+
+        width: calc(100% - 120px);
+    }
+    #desing{
+        width:100%;
+    }
+    .desing-2{
+        width: 70%;
+    }
+    .platform-2{
+        width: calc(100% - 120px);
+
+    }
+    .triangle-2{
+        border-width: 0px 500px 550px 0;
+}
+    .triangle{
+        border-width: 200px 0 526px 480px;
+    }
+
+
+}
+@media screen and  (max-width: 1340px) {
+    footer .data{
+        width: calc(100% - 160px);
+        padding: 0 80px;
+        text-align: center;
+    }
+    .desing-3{
+        display:none;
+    }
+    footer .data .col-md-3{
+        width: 60%;
+        margin-bottom: 40px;
+    }
+    footer .data .col-md-2{
+        width: 40%;
+        margin-bottom: 40px;
+        float: right;
+    }
+    .social-network{
+        margin-left: 0;
+    }
+    .social-network img {
+        margin-right: 10%;
+    }
+    .ex-triangle{
+        left: 52%;
     }
 }
 
@@ -72,6 +130,9 @@
     }
     #section_7 .submit,#section_7 .input{
         width: 70%;
+        margin-right: 25px;
+        text-align: center;
+        padding-left: 0;
     }
     .trial{
         margin-left: 0;
@@ -83,30 +144,16 @@
         width: calc(100% - 120px);
         padding: 0 60px;
     }
-}
-
-
-@media screen and  (max-width: 1000px) {
-    #platform{
-
-        width: calc(100% - 120px);
+    footer .data .col-md-3{
+        width: 100%;
     }
-    #desing{
-        width:100%;
+    footer .data .col-md-2{
+        width: 100%;
     }
-    .desing-2{
-        width: 70%;
+    .social-network{
+        margin-left: 50px;
     }
-    .platform-2{
-        width: calc(100% - 120px);
-
+    .social-network img {
+        margin-right: 10%;
     }
-    .triangle-2{
-        border-width: 0px 500px 550px 0;
-}
-    .triangle{
-        border-width: 200px 0 526px 480px;
-    }
-
-
 }
